@@ -15,6 +15,8 @@ body{
 header{
     background-color: black;
     height: 70px;
+    width: 1337px;
+    margin: 0 auto;
 }
 .cont-nav{
     display: flex;
@@ -57,6 +59,8 @@ header{
     height: 400px;
     text-align: center;
     align-content: center;
+    width: 1337px;
+    margin: 0 auto;
 }
 .contenedor1 h3{
     font-size: 10px;
@@ -72,13 +76,14 @@ header{
 }
 .contenedor1 img{
     width: 15%;
-    
 }
 
 /*---contenedor2---*/
 
 .contenedor2{
     height: 400px;
+    width: 1337px;
+    margin: 0 auto;
     background-color: black;
     background-size: cover;
     display: flex;
@@ -87,7 +92,7 @@ header{
 }
 .cont2{
     height: 300px;
-    width: 1050px;
+    width: 80%;
     align-content: center;
     text-align: center;
 }
@@ -106,6 +111,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 800px;
+    width: 1337px;
     padding: 2em 0;
     margin: 0 auto;
     text-align: center;
@@ -118,6 +124,7 @@ header{
     gap: 70px;
     margin: 0px 50px;
     height: 600px;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.413);
 }
 
@@ -132,8 +139,11 @@ header{
     margin-bottom: 20px;
     font-style: oblique;
     width: 300px;
+    text-align: center;
 }
+
 /*---prenda1---*/
+
 .image-container1{
     position: relative;
     display: inline-block;
@@ -163,7 +173,9 @@ header{
 .image-container1:hover::after {
     opacity: 1;
 }
+
 /*---prenda2---*/
+
 .image-container2{
     position: relative;
     display: inline-block;
@@ -193,7 +205,9 @@ header{
 .image-container2:hover::after {
     opacity: 1;
 }
+
 /*---prenda3---*/
+
 .image-container3{
     position: relative;
     display: inline-block;
@@ -250,9 +264,14 @@ header{
     font-size: 36px;
     margin-bottom: 30px;
 }
+
 /*---CONTENEDOR 4---*/
+
 .contenedor4{
     height: 500px;
+    width: 1337px;
+    margin: 0 auto;
+    padding: 0 2em;
     background: rgb(13,13,13);
     background: radial-gradient(circle, rgba(13,13,13,1) 5%, rgba(0,0,0,1) 100%);
     display: flex;
@@ -260,7 +279,7 @@ header{
 }
 .contenedor4 .opinion{
     height: 100%;
-    width: 600px;
+    width: 50%;
     text-align: center;
     align-content: center;
     margin: 10px 0px 0px;
@@ -312,29 +331,33 @@ header{
 
 .contenedor4 .encuesta{
     height: 100%;
-    width: 600px;
+    width: 55%;
     text-align: center;
     align-content: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 .contenedor4 .encuesta h2{
     color: #00F523;
     font-size: 40px;
     margin-bottom: 30px;
 }
+
 .contenedor4 .encuesta p{
     color: #00F523;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .contenedor4 .encuesta label{
     color: white;
     font-size: 20px;
     font-weight: 500;
     margin: 0px 10px;
 }
+
 .contenedor4 .encuesta label:hover{
     color: black;
     font-size: 20px;
@@ -343,25 +366,29 @@ header{
     background-color: #00F523;
     transition: all 0.4s;
 }
+
 .contenedor4 .encuesta input{
     margin: 0px 10px 30px 0px;
 }
+
 .contenedor4 .encuesta form{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .contenedor4 .encuesta .form{
     text-align: left;
 }
+
 .contenedor4 .encuesta .boton input{
     color: #00F523;
     background-color: transparent;
     padding: 10px 10px;
     border: 0px;
     font-weight: 600;
-
 }
+
 .contenedor4 .encuesta .boton input:hover{
     background-color: #00F523;
     color: black;
@@ -378,6 +405,8 @@ footer{
     margin: 0 auto;
     padding: 2em 0;
     background-color: black;
+    width: 1337px;
+    height: 100dvh;
 }
 
 footer h2{
@@ -465,19 +494,22 @@ footer h6{
     text-align: center;
     background-color: #1E1E1E;
     height: 95px;
-    margin: 0px;
+    margin: 0 auto;
+    width: 1337px;
 }
 .cont-publi2{
     text-align: center;
     background-color: #1E1E1E;
     height: 90px;
-    margin: 0px;
+    margin: 0 auto;
+    width: 1337px;
 }
 .cont-publi3{
     text-align: center;
     background-color: #1E1E1E;
     height: 95px;
-    margin: 0px;
+    margin: 0 auto;
+    width: 1337px;
 }
 .cont-publi1 img{
     height: 95px;
@@ -500,6 +532,7 @@ footer h6{
     margin: 0 auto;
     background-color:#00F523;
     height: 500px;
+    width: 1337px;
 }
 
 .staff h2{
@@ -507,10 +540,12 @@ footer h6{
     margin-bottom: 50px;
     font-size: 50px;
 }
+
 .staff p{
-    font-size: 10px;
-    width: 250px;
+    font-size: 13px;
+    width: 100%;
 }
+
 .personas{
     display: flex;
     justify-content: space-evenly;
@@ -524,7 +559,7 @@ footer h6{
 }
 
 .personas img{
-    width: 200px;
+    width: 60%;
 }
 
 .imagen-per{
