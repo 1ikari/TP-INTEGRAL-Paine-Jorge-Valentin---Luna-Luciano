@@ -25,6 +25,7 @@ header{
 .logo{
     height: 70px;
     align-content: center;
+    margin-left: 30px;
 }
 .logo img{
     width: 40px;
@@ -65,13 +66,11 @@ header{
     font-size: 10px;
     color: black;
     font-weight: 500;
-    
 }
 .contenedor1 h4{
     font-size: 8px;
     color: black; 
     font-weight: 400;
-    
 }
 .contenedor1 img{
     width: 15%;
@@ -106,7 +105,7 @@ header{
 /*---Articulos---*/
 
 .contenedor3{
-    background: url(img/fondo1-dgr.jpg);
+    background: url(img/fondo1-dgr.png);
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -271,29 +270,26 @@ header{
     width: 1337px;
     margin: 0 auto;
     padding: 0 2em;
-    background: rgb(13,13,13);
-    background: radial-gradient(circle, rgba(13,13,13,1) 5%, rgba(0,0,0,1) 100%);
+    background: url(img/fondo1-dgr.png);
     display: flex;
     justify-content: space-evenly;
 }
 .contenedor4 .opinion{
-    height: 100%;
+    height: 500px;
     width: 50%;
     text-align: center;
     align-content: center;
-    margin: 10px 0px 0px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .contenedor4 .opinion .form{
-    display: flex;
-    text-align: right;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
 }
 .contenedor4 .opinion h2{
     color: #00F523;
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 40px;
 }
 .contenedor4 .opinion p{
@@ -306,68 +302,63 @@ header{
     padding: 5px;
     margin: 0px 0px 30px;
     width: 200px;
+    border-radius: 10px;
     outline-color: #00F523;
 }
 
 .contenedor4 .opinion .boton input{
-    color: #00F523;
-    background-color: transparent;
+    color: black;
+    background-color: #00F523;
     padding: 10px;
     border: 0px;
+    border-radius: 10px;
     font-weight: 600;
     width: 165px;
 
 }
-.contenedor4 .opinion .boton input:hover{
-    background-color: #00F523;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    border: 0px;
-    font-weight: 600;
-    transition: all 0.4s;
-}
 
 .contenedor4 .encuesta{
-    height: 100%;
+    height: 500px;
     width: 55%;
     text-align: center;
     align-content: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .contenedor4 .encuesta h2{
     color: #00F523;
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    margin: 9px 0px 35px;
 }
 
 .contenedor4 .encuesta p{
     color: #00F523;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .contenedor4 .encuesta label{
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    margin: 0px 10px;
-}
-
-.contenedor4 .encuesta label:hover{
     color: black;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 5px;
-    background-color: #00F523;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: white;
     transition: all 0.4s;
 }
 
+.contenedor4 .encuesta label:hover{
+    color: black;    
+    align-content: center;
+    background-color: #00F523;
+    transition: all 0.3s;
+}
+
 .contenedor4 .encuesta input{
-    margin: 0px 10px 30px 0px;
+    margin: 0px 5px 35px;
 }
 
 .contenedor4 .encuesta form{
@@ -376,27 +367,20 @@ header{
     align-items: center;
 }
 
+
 .contenedor4 .encuesta .form{
-    text-align: left;
+    text-align: center;
 }
 
 .contenedor4 .encuesta .boton input{
-    color: #00F523;
-    background-color: transparent;
+    background-color: #00F523;
+    color: black;
     padding: 10px 10px;
+    border-radius: 10px;
     border: 0px;
     font-weight: 600;
 }
 
-.contenedor4 .encuesta .boton input:hover{
-    background-color: #00F523;
-    color: black;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: 0px;
-    font-weight: 600;
-    transition: all 0.4s;
-}
 
 /*---FOOTER---*/
 
@@ -591,7 +575,7 @@ footer h6{
     margin: 0 auto;
 }
 .contenedor-login h1{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #00F523;
 }
 
@@ -600,6 +584,7 @@ form .formulario-login input{
     width: 500px;
     text-align: center;
     margin: 10px 0px;
+    border-radius: 20px;
     outline-color: #00F523;
 }
 
@@ -613,6 +598,11 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+.checkbox {
+    margin-left: 10px;
+}
+
 .login-checkbox-boton{
     height: 50px;
     width: 38%;
@@ -628,11 +618,11 @@ form{
     padding: 10px;
     border-style: none;
     width: 100px;
-}
-.login-checkbox-boton #login:hover{
+    border-radius: 10px;
+    margin-right: 8px;
     background-color: #00F523;
-    transition: 0.3s;
 }
+
 
 /*---registro---*/
 
@@ -647,7 +637,7 @@ form{
     margin: 0 auto;
 }
 .contenedor-registro h1{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #00F523;
 }
 
@@ -656,6 +646,7 @@ form .formulario-registro input{
     width: 500px;
     text-align: center;
     margin: 10px 0px;
+    border-radius: 20px;
     outline-color: #00F523;
 }
 
@@ -668,13 +659,14 @@ form{
     width: 243px;
     text-align: center;
     margin: 10px 5px;
+    border-radius: 20px;
     outline-color: #00F523;
 }
 .registro-check {
     height: 57px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
 }
 .registro-checkbox-boton{
     height: 50px;
@@ -691,11 +683,11 @@ form{
     padding: 10px;
     border-style: none;
     width: 100px;
-}
-.registro-checkbox-boton #login:hover{
+    border-radius: 10px;
+    margin-right: 6px;
     background-color: #00F523;
-    transition: 0.3s;
 }
+
 .cont-genero{
     height: 30px;
     margin: 20px 0px 20px;
@@ -713,6 +705,7 @@ form{
     height: 45px;
     width: 120px;
     margin: 0px 9px;
+    border-radius: 20px;
     align-content: center;
     background-color: white;
 
@@ -737,18 +730,20 @@ form{
     width: 500px;
 }
 .edad-num label{
-    color: white;
+    color: #00F523;
 }
 .edad-num #edad{
     padding: 15px;
-    width: 192px;
+    width: 120px;
     text-align: center;
-    margin: 0px 15px 0px 10px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 20px;
     outline-color: #00F523;
 }
 .edad-num #tel{
     padding: 15px;
-    width: 243px;
+    width: 290px;
     text-align: center;
+    border-radius: 20px;
     outline-color: #00F523;
 }
