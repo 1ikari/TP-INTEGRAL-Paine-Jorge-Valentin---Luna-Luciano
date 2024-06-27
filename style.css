@@ -578,3 +578,177 @@ footer h6{
  @-webkit-keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
 
 
+/*---login---*/
+
+.contenedor-login{
+    background: rgb(20,20,20);
+    background: radial-gradient(circle, rgba(20,20,20,1) 5%, rgba(0,0,0,1) 100%);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    align-content: center;
+    width: 1337px;
+    margin: 0 auto;
+}
+.contenedor-login h1{
+    margin-bottom: 40px;
+    color: #00F523;
+}
+
+form .formulario-login input{
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+    margin: 10px 0px;
+    outline-color: #00F523;
+}
+
+form{
+    justify-content: center;
+}
+
+.login-check {
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-checkbox-boton{
+    height: 50px;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-checkbox-boton label{
+    color: white;
+    margin-left: 5px;
+}
+.login-checkbox-boton #login{
+    padding: 10px;
+    border-style: none;
+    width: 100px;
+}
+.login-checkbox-boton #login:hover{
+    background-color: #00F523;
+    transition: 0.3s;
+}
+
+/*---registro---*/
+
+.contenedor-registro{
+    background: rgb(20,20,20);
+    background: radial-gradient(circle, rgba(20,20,20,1) 5%, rgba(0,0,0,1) 100%);
+    background-size: cover;
+    height: 860px;
+    text-align: center;
+    align-content: center;
+    width: 1337px;
+    margin: 0 auto;
+}
+.contenedor-registro h1{
+    margin-bottom: 40px;
+    color: #00F523;
+}
+
+form .formulario-registro input{
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+    margin: 10px 0px;
+    outline-color: #00F523;
+}
+
+form{
+    justify-content: center;
+}
+
+.form-nombre-registro input{
+    padding: 15px;
+    width: 243px;
+    text-align: center;
+    margin: 10px 5px;
+    outline-color: #00F523;
+}
+.registro-check {
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro-checkbox-boton{
+    height: 50px;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.registro-checkbox-boton label{
+    color: white;
+    margin-left: 5px;
+}
+.registro-checkbox-boton #login{
+    padding: 10px;
+    border-style: none;
+    width: 100px;
+}
+.registro-checkbox-boton #login:hover{
+    background-color: #00F523;
+    transition: 0.3s;
+}
+.cont-genero{
+    height: 30px;
+    margin: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.genero label{
+    color: black;    
+    height: 45px;
+    width: 120px;
+    margin: 0px 9px;
+    align-content: center;
+    background-color: white;
+
+}
+.genero label:hover{
+    color: black;    
+    align-content: center;
+    background-color: #00F523;
+    transition: all 0.3s;
+}
+.cont-edad-num{
+    height: 30px;
+    margin: 40px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edad-num{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+}
+.edad-num label{
+    color: white;
+}
+.edad-num #edad{
+    padding: 15px;
+    width: 192px;
+    text-align: center;
+    margin: 0px 15px 0px 10px;
+    outline-color: #00F523;
+}
+.edad-num #tel{
+    padding: 15px;
+    width: 243px;
+    text-align: center;
+    outline-color: #00F523;
+}
